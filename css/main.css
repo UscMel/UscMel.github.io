@@ -7,7 +7,14 @@ h1.thick {
 body {
     
     background-image: url("https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/14700748_1309902845687292_7848863570594675910_o.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -10;
+    overflow: hidden
     
 }
 h1 {
@@ -26,3 +33,4 @@ p1{
     font-size: 20px;
     color: black;
 {
+   
